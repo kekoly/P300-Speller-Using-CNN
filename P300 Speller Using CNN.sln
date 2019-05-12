@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "P300 Speller Using CNN", "P300 Speller Using CNN\P300 Speller Using CNN.pyproj", "{2DE3865A-B48C-4D1B-8E76-D5FEC1580D1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE3865A-B48C-4D1B-8E76-D5FEC1580D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE3865A-B48C-4D1B-8E76-D5FEC1580D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0614CB18-FE63-4AA4-9D39-365CFC8929F9}
+	EndGlobalSection
+EndGlobal
