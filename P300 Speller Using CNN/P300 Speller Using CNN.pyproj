@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2de3865a-b48c-4d1b-8e76-d5fec1580d1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>P300_Speller_Using_CNN.py</StartupFile>
+    <StartupFile>GUI.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,28 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI_Handler.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data Preprocessing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="P300_Speller_Using_CNN.py" />
+    <Compile Include="Subject_A_CNN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subject_B_CNN.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Subject_AB_CNN.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
