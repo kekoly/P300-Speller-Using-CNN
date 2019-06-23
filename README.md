@@ -1,4 +1,6 @@
 # P300-Speller-Using-CNN
+# But what is P300?
+The P300 wave is an event-related potential (ERP) which can be recorded via electroencephalogram (EEG). The wave corresponds to a positive deflection in voltage at a latency of about 300ms in the EEG. In other words, it means that after an event like a flashing light, adeflection in the signal should occur after 300ms.The presence, magnitude, topography, and time of this signal are used as metrics in decision making processes. The presence of a P300 wave signals where the user was focusing 300ms before its dectection.
 
 The model is based on the paper by [Cecotti and Graser](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5492691&isnumber=5692151) using BCI competiion III dataset II Subject A and Subject B
 
