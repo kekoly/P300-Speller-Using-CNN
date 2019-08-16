@@ -4,6 +4,10 @@ This is an implementation of a convolutional neural network, that uses electroen
 
 The model was implemented using Keras, and it's based on the [paper by Cecotti and Graser](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5492691&isnumber=5692151).
 
+## Demo
+
+![Demo](https://github.com/kekoly/P300-Speller-Using-CNN/blob/master/demo.gif)
+
 ## P300
 The P300 wave is an event-related potential (ERP) which can be recorded via electroencephalogram (EEG). The wave corresponds to a positive deflection in voltage at a latency of about 300ms in the EEG. The presence of a P300 wave signals where the user was focusing 300ms before its dectection. It looks more or less like the image below.
 
